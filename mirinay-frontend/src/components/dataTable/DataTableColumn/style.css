@@ -1,0 +1,16 @@
+.data-table-col{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: auto;
+}
+
+.data-table-col-1{
+    flex: 1;
+}
+.data-table-col-2{
+    flex: 2;
+}
+.data-table-col-3{
+    flex: 3;
+}

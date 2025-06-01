@@ -1,0 +1,26 @@
+.container-details-interaction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    gap: 10px;
+    max-height: 300px;
+    cursor: pointer;
+    color: var(--preto);
+}
+
+.details-interaction-green:hover{
+   color: var(--verde-40-escuro);
+}
+
+.details-interaction-alt-green:hover {
+   color: var(--verde-alt);
+}
+
+.details-interaction-red:hover {
+   color: var(--vermelho-40-escuro);
+}
+
+.details-interaction-yellow:hover {
+   color: var(--amarelo-40-escuro);
+}

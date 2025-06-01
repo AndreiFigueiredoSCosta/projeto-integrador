@@ -1,0 +1,5 @@
+.h1{
+    font-size: var(--48px);
+    line-height: var(--64px);
+    word-break: break-all;
+}

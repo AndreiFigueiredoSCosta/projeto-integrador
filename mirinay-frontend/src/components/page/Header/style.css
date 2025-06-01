@@ -1,0 +1,28 @@
+#header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: var(--branco);
+    border-bottom: 1px solid var(--branco-20-escuro);
+}
+
+#header img {
+    width: 120px;
+    height: 25px;
+}
+
+#user button {
+    background-color: var(--vermelho);
+    color: var(--branco);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#user button:hover {
+    background-color: var(--vermelho-40-escuro);
+}

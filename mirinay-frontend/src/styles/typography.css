@@ -1,0 +1,96 @@
+:root {
+    /* Tamanhos com base no padrão de 1 rem = 16px */
+    --8px: 0.5rem;
+    --10px: 0.625rem;
+    --12px: 0.75rem;
+    --14px: 0.875rem;
+    --16px: 1rem;
+    --18px: 1.125rem;
+    --20px: 1.25rem;
+    --24px: 1.5rem;
+    --28px: 1.75rem;
+    --32px: 2rem;
+    --36px: 2.25rem;
+    --40px: 2.5rem;
+    --48px: 3rem;
+    --56px: 3.5rem;
+    --64px: 4rem;
+    --72px: 4.5rem;
+    --80px: 5rem;
+    --96px: 6rem;
+
+}
+
+
+.italic{
+    font-style: italic;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.justify-center {
+    text-align: center;
+}
+
+.justify-right {
+    text-align: right;
+}
+
+.justify-left {
+    text-align: left;
+}
+
+.justify-justify {
+    text-align: justify;
+}
+
+.justify-blank {
+    text-align: inherit;
+}
+
+.align-top {
+    align-content: start;
+}
+
+.align-middle {
+    align-content: center;
+}
+
+.align-bottom {
+    align-content: end;
+}
+
+.align-blank{
+    align-content: inherit;
+}
+
+.row-piece-selected{
+    font-weight: 700;
+    color: var(--verde-20-escuro);
+}

@@ -1,0 +1,29 @@
+.label{
+    font-size: var(--14px);
+    font-weight: 600;
+    word-break: break-all;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transform: translateY(-50%);
+    color: var(--preto-60-transparente);
+    transition: 0.3s;
+    user-select: none;
+    cursor: text;
+
+    display: flex;
+}
+
+.input:focus ~ .label, textarea:focus ~ .label, select:focus ~ .label, .element-filled{
+    top: 10px;
+    left: 15px;
+    font-size: var(--10px);
+}
+
+.input:focus ~ .label, textarea:focus ~ .label{
+    color: var(--verde-alt-20-escuro);
+}
+
+.disabled-label{
+    color: var(--preto-25-transparente);
+}

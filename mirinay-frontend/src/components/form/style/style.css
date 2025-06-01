@@ -1,0 +1,6 @@
+.form-element{
+    width: 100%;
+    min-width: 100px;
+    height: fit-content;
+    position: relative;
+}

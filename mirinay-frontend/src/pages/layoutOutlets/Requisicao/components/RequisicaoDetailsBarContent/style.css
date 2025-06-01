@@ -1,0 +1,15 @@
+.requisicao-details-bar-content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.requisicao-details-bar-content > *{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}

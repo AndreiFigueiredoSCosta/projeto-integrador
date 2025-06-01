@@ -1,0 +1,39 @@
+.icon-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-button:disabled {
+    cursor: not-allowed;
+    color: var(--branco-20-escuro);
+}
+
+.icon-button-edit:hover {
+    color: var(--verde-alt-20-claro);
+}
+
+.icon-button-delete:hover {
+    color: var(--vermelho);
+}
+
+.icon-button-comment:hover {
+    color: var(--amarelo-20-claro);
+}
+
+.icon-button-like:hover {
+    color: var(--verde-20-claro);
+}
+
+.icon-button-dislike:hover {
+    color: var(--vermelho-20-claro);
+}
+
+.icon-button-selected {
+    color: var(--verde-40-claro);
+}
+

@@ -1,0 +1,21 @@
+* {
+    position: relative;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    font-size: 1rem;
+    color: inherit;
+    background: none;
+    text-align: inherit;
+    vertical-align: baseline;
+    list-style: none;
+    text-transform: none;
+    scrollbar-width: auto;
+    scrollbar-color: var(--branco-20-escuro) var(--branco-10-escuro);
+}

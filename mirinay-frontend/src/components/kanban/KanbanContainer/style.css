@@ -1,0 +1,5 @@
+.kanban-container{
+    display: flex;
+    height: 100%;
+    overflow-x: auto;
+}

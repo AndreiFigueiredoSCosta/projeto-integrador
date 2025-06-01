@@ -1,0 +1,18 @@
+.mark{
+    font-size: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    background-color: inherit;
+}
+.mark-yellow{
+    color: var(--amarelo-40-escuro);
+    background-color: var(--amarelo-80-transparente);
+}
+.mark-green{
+    color: var(--verde-40-escuro);
+    background-color: var(--verde-80-transparente);
+}
+.mark-red{
+    color: var(--vermelho-40-escuro);
+    background-color: var(--vermelho-80-transparente);
+}

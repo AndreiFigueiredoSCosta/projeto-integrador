@@ -1,0 +1,11 @@
+.section-one{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section-two{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Alinha 2 inputs por linha */
+    gap: 10px; /* Espaçamento entre os inputs */
+}

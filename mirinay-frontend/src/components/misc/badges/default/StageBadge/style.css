@@ -1,0 +1,80 @@
+.stage-badge {
+    text-align: center;
+    border-radius: 50px;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stage-badge p{
+    text-transform: uppercase;
+    font-size: var(--18px);
+    font-weight: 600;
+}
+
+.stage-badge.outline {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.stage-badge.fill p{
+    color: var(--branco);
+}
+
+/* Estilos fill */
+.green-badge.fill {
+    background-color: var(--verde);
+}
+
+.yellow-badge.fill {
+    background-color: var(--amarelo);
+}
+
+.black-badge.fill {
+    background-color: var(--preto);
+}
+
+.red-badge.fill {
+    background-color: var(--vermelho);
+}
+
+.gray-badge.fill {
+    background-color: var(--cinza);
+}
+
+.alt-green-badge.fill {
+    background-color: var(--verde-alt);
+}
+
+/* Estilos outline */
+.green-badge.outline {
+    border-color: var(--verde);
+    color: var(--verde);
+}
+
+.yellow-badge.outline {
+    border-color: var(--amarelo);
+    color: var(--amarelo);
+}
+
+.black-badge.outline {
+    border-color: var(--preto);
+    color: var(--preto);
+}
+
+.red-badge.outline {
+    border-color: var(--vermelho);
+    color: var(--vermelho);
+}
+
+.gray-badge.outline {
+    border-color: var(--cinza);
+    color: var(--cinza);
+}
+
+.alt-green-badge.outline {
+    border-color: var(--verde-alt);
+    color: var(--verde-alt);
+}

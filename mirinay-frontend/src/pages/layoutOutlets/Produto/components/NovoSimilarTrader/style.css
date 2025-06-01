@@ -1,0 +1,16 @@
+.produto-similar-trader{
+    gap: 0;
+}
+
+.trade-manager{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 0 10px;
+}
+
+.produto-similar-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

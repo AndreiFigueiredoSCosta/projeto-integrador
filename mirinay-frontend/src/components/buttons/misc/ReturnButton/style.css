@@ -1,0 +1,28 @@
+.return-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: var(--cinza); /* Ajuste conforme o design do Figma */
+    font-size: var(--16px); /* Ajuste conforme o design do Figma */
+    cursor: pointer;
+    width: fit-content; /* Ajuste para a largura especificada */
+    height: fit-content; /* Ajuste para a altura especificada */
+    padding: 5px 25px; /* Padding especificado */
+    gap: 5px; /* Espaço entre o ícone e o texto */
+    font-weight: 700; /* Define o peso da fonte como 600 (negrito) */
+    line-height: var(--20px); /* Define a altura da linha conforme especificado */
+    text-align: center; /* Centraliza o exto horizontalmente */
+    color: var(--branco);
+    text-transform: uppercase;
+  }
+  .return-button:hover {
+    background-color: var(--verde-alt);
+    color: var(--branco);
+  }
+
+  .return-button:disabled {
+    background-color: var(--branco-20-escuro); /* Ajuste conforme o design do Figma */
+    color:var(--branco-5-escuro);
+    cursor: not-allowed;
+  }

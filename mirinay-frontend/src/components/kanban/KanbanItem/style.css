@@ -1,0 +1,32 @@
+.kanban-item-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--preto-20-claro);
+    border-radius: 5px;
+    padding: 0 5px;
+    gap: 5px;
+    justify-content: center;
+}
+
+.kanban-Item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 5px;
+    position: relative;
+    padding: 5px;
+    min-height: 40px;
+    height: fit-content;
+    max-height: 60px;
+}
+
+.kanban-item-expanded{
+    border-bottom: 1px solid var(--preto-20-claro);
+}
+
+.kanban-item-expansion {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 5px;
+}

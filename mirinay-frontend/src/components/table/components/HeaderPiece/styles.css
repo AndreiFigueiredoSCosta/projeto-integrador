@@ -1,0 +1,21 @@
+.headerPiece {
+    font-size: var(--12px);
+    height: 40px;
+    align-content: center;
+    padding-left: 15px;
+    cursor: pointer;
+    min-width: 100px;
+}
+
+.headerPiece-1 { flex: 1; }
+.headerPiece-2 { flex: 2; }
+.headerPiece-3 { flex: 3; }
+.headerPiece-4 { flex: 4; }
+.headerPiece-5 { flex: 5; }
+.headerPiece-6 { flex: 6; }
+.headerPiece-7 { flex: 7; }
+.headerPiece-8 { flex: 8; }
+.headerPiece-9 { flex: 9; }
+.headerPiece-10 { flex: 10; }
+.headerPiece-11 { flex: 11; }
+.headerPiece-12 { flex: 12; }

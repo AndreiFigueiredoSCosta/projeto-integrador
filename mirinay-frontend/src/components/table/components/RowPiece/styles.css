@@ -1,0 +1,36 @@
+.rowPiece {
+    height: 40px;
+    align-content: center;
+    padding-left: 15px;
+    cursor: pointer;
+    min-width: 100px;
+    text-transform: uppercase;
+    word-break: break-all;
+
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.rowPiece-text-small {
+    font-size: var(--10px);
+}
+
+.rowPiece-text-medium {
+    font-size: var(--12px);
+}
+
+.rowPiece-text-large {
+    font-size: var(--14px);
+}
+
+.rowPiece-1 { flex: 1; }
+.rowPiece-2 { flex: 2; }
+.rowPiece-3 { flex: 3; }
+.rowPiece-4 { flex: 4; }
+.rowPiece-5 { flex: 5; }
+.rowPiece-6 { flex: 6; }
+.rowPiece-7 { flex: 7; }
+.rowPiece-8 { flex: 8; }
+.rowPiece-9 { flex: 9; }
+.rowPiece-10 { flex: 10; }
+.rowPiece-11 { flex: 11; }
+.rowPiece-12 { flex: 12; }

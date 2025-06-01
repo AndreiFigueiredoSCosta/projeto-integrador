@@ -1,0 +1,27 @@
+.p{
+    line-height: 1.5;
+}
+
+.p-xsmall{
+    font-size: var(--8px);
+}
+
+.p-small{
+    font-size: var(--10px);
+}
+
+.p-medium{
+    font-size: var(--12px);
+}
+
+.p-large{
+    font-size: var(--14px);
+}
+
+.p-xlarge{
+    font-size: var(--16px);
+}
+
+.p-xxlarge{
+    font-size: var(--18px);
+}

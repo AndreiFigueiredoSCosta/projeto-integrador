@@ -1,0 +1,10 @@
+.element-trader{
+    gap: 0;
+}
+
+.element-trade-manager{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 0 10px;
+}

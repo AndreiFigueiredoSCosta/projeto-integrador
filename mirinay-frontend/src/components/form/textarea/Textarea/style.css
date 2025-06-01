@@ -1,0 +1,20 @@
+.TextAreaBody{
+    display: flex;
+    flex-direction: column-reverse;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 20px 15px 10px;
+    width: 100%;
+    min-height: 80px;
+    max-height: 120px;
+    height: 100%;
+    resize: vertical;
+    font-size: var(--12px);
+    color: var( --preto-25-transparente);
+    border-color: var(--branco-20-escuro);
+}
+
+
+
+
+

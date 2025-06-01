@@ -1,0 +1,30 @@
+.input{
+    width: 100%;
+    min-width: 100px;
+    height: 40px;
+    border: 1px solid var(--branco-20-escuro);
+    border-radius: 5px;
+    padding: 15px 20px 5px;
+    font-size: var(--12px);
+    vertical-align: center;
+    line-height: var(--12px);
+    font-weight: 500;
+    font-family: inherit;
+    color: var(--preto-25-transparente);
+    background-color: var(--branco);
+    transition: border-color 0.25s;
+}
+
+.input:focus{
+    border: 1px solid var(--verde-alt-40-claro);
+    box-shadow: 0 0 0 3px var(--verde-alt-40-claro);
+}
+
+.input:disabled{
+    background-color: var(--branco-5-escuro);
+    color: var(--preto-75-transparente);
+}
+
+.input[type="hidden"]{
+    display: none;
+}

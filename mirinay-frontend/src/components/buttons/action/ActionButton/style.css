@@ -1,0 +1,68 @@
+.actionbutton{
+    color: var(--branco);
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 20px;
+    transition: all 0.2s ease;
+    text-align: center;
+    min-width: 100px;
+    width: 100%;
+}
+
+.delete-actionbutton {
+  background-color: var(--vermelho);
+}
+
+.delete-actionbutton:hover {
+  background-color: var(--vermelho-40-escuro);
+}
+
+.submit-actionbutton {
+  background-color: var(--verde);
+}
+
+.submit-actionbutton:hover {
+  background-color: var(--verde-40-escuro);
+}
+
+.cancel-actionbutton {
+  background-color: var(--cinza);
+}
+
+.cancel-actionbutton:hover {
+  background-color: var(--preto-20-claro);
+}
+
+.details-actionbutton {
+  background-color: var(--verde-alt);
+}
+
+.details-actionbutton:hover {
+  background-color: var(--verde-alt-40-escuro);
+}
+
+.actionbutton:disabled {
+    background-color: var(--branco-20-escuro);
+    color: var(--branco-5-escuro);
+    cursor: not-allowed;
+}
+
+.large-actionbutton {
+    height: 40px;
+    min-height: 40px;
+    font-size: var(--20px);
+}
+
+.small-actionbutton {
+    height: 30px;
+    min-height: 30px;
+    font-size: var(--16px);
+}
+
+.upper-actionbutton {
+    border-radius: 5px 5px 0 0 ;
+    min-width: 200px;
+    width: fit-content;
+}

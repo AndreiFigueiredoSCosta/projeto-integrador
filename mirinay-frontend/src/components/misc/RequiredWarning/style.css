@@ -1,0 +1,7 @@
+.required-warning{
+    display: flex;
+    flex-direction: row;
+    color: var(--preto-75-transparente);
+    padding: 5px;
+    font-size: var(--12px);
+}

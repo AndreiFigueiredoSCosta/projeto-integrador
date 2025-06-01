@@ -1,0 +1,30 @@
+.black{
+    color: var(--preto);
+}
+
+.white{
+    color: var(--branco);
+}
+
+.red{
+    color: var(--vermelho-40-escuro);
+}
+
+.green{
+    color: var(--verde-40-escuro);
+}
+
+.yellow{
+    color: var(--amarelo-40-escuro);
+}
+
+.alt-green{
+    color: var(--verde-alt);
+}
+.blank{
+    color: inherit;
+}
+
+.gray{
+    color: var(--cinza);
+}

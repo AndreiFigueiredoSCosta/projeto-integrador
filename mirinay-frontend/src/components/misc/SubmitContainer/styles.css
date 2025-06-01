@@ -1,0 +1,79 @@
+.submitContainer-box {
+    height: fit-content;
+    max-height: 100%;
+    background-color: var(--branco-5-escuro);
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    transition: width 0.5s ease-in-out, padding 0.5s, margin 0.5s, opacity 0.3s ease-in-out;
+    width: 100%;
+    border-left: 1px solid var(--branco-20-escuro);
+    border-right: 1px solid var(--branco-20-escuro);
+}
+
+.submitContainer{
+    width:500px;
+    transition: width 0.5s ease-in-out, padding 0.5s, margin 0.5s, opacity 0.3s ease-in-out;
+}
+
+.submitContainer.large {
+    width: 500px;
+}
+
+.submitContainer.small {
+    width: 400px;
+}
+
+.submitContainer.hide {
+    width: 0;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    transition: width 0.5s ease-in-out, padding 0.5s, margin 0.5s, opacity 0.3s ease-in-out;
+}
+
+.submitContainer-box.hide {
+    width: 0;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    transition: width 0.5s ease-in-out, padding 0.5s, opacity 0.3s ease-in-out;
+}
+
+.display-none {
+    display: none;
+}
+
+.submitContainer-box.show {
+    opacity: 1;
+}
+
+
+.submitContainer-box .input-group {
+    display: flex;
+    gap: 10px;
+}
+
+.submitContainer-box .action-button {
+    margin-top: 15px;
+}
+
+.submitContainer-form{
+    background-color: var(--branco);
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+}
+
+.submitContainer-small{
+    padding: 10px;
+}
+
+.submitContainer-large{
+    padding: 20px;
+}
+

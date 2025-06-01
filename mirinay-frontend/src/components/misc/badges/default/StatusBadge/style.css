@@ -1,0 +1,39 @@
+.badge{
+    text-align: center;
+    border: 1px solid;
+    border-radius: 25px;
+    width: 100%;
+    height: 25px;
+    padding-top: 2px;
+}
+
+.danger-badge{
+    background-color: var(--vermelho-80-transparente);
+    border-color: var(--vermelho-20-escuro);
+    color: var(--vermelho-20-escuro);
+}
+
+.danger-badge:hover{
+    background-color: var(--vermelho-60-transparente);
+}
+
+.warning-badge{
+    background-color: var(--amarelo-80-transparente);
+    border-color: var(--amarelo-20-escuro);
+    color: var(--amarelo-20-escuro);
+}
+
+.warning-badge:hover{
+    background-color: var(--amarelo-60-transparente);
+}
+
+.success-badge{
+    background-color: var(--verde-80-transparente);
+    border-color: var(--verde-20-escuro);
+    color: var(--verde-20-escuro);
+}
+
+.success-badge:hover{
+    background-color: var(--verde-60-transparente);
+
+}

@@ -1,0 +1,26 @@
+.search-button{
+    background-color: var(--verde-alt);
+    border-radius: 25px;
+    color: var(--preto-25-transparente);
+    cursor: pointer;
+    padding: 5px 20px;
+    transition: all 0.2s ease;
+    height: fit-content;
+    width: fit-content;
+}
+
+.search-button:hover{
+    background-color: var(--verde-alt-40-escuro);
+}
+
+.search-button img{
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+.search-button:disabled{
+    background-color: var(--cinza);
+    cursor: not-allowed;
+    color: var(--preto-75-transparente);
+}

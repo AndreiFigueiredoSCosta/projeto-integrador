@@ -1,0 +1,31 @@
+.close-button{
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.close-button > * > *{
+    color: var(--preto-75-transparente);
+}
+
+.close-button:hover > * > *{
+    color: var(--vermelho-60-transparente);
+}
+
+.close-button-small > * {
+    width: 10px;
+    height: 10px;
+    stroke-width: 5px;
+}
+
+.close-button-medium > * {
+    width: 16px;
+    height: 16px;
+    stroke-width: 4px;
+}
+
+.close-button-large > * {
+    width: 20px;
+    height: 20px;
+    stroke-width: 3px;
+}

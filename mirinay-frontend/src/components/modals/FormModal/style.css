@@ -1,0 +1,33 @@
+.modal{
+    min-height: fit-content;
+    min-width: 400px;
+    max-width: 400px;
+
+}
+
+.modal-content{
+    background-color: var(--branco);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.modal-form{
+    background-color: var(--branco-5-escuro);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.modal-header{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}

@@ -1,0 +1,5 @@
+.required-element{
+    font-size: inherit;
+    color: var(--vermelho);
+    user-select: none;
+}

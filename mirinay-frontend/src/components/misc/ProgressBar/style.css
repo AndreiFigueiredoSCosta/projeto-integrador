@@ -1,0 +1,34 @@
+.progress-bar-container{
+    min-width: 200px;
+    width: 200px;
+    max-width: 200px;
+    height: 30px;
+    background-color: var(--cinza);
+    border-radius: 25px;
+    display: flex;
+    border: 1px solid var(--branco-20-escuro);
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.progress-bar-progress{
+    background-color: var(--verde-20-claro);
+    width: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.progress-bar-loadpath{
+    background-color: var(--branco-20-escuro);
+    width: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: width 0.5s;
+    user-select: none;
+}

@@ -1,0 +1,17 @@
+.kanban-item-piece-divider{
+    min-height: 30px;
+    height: 100%;
+    max-height: 50px;
+    width: 1px;
+    background-color: var(--preto-20-claro);
+}
+
+.kanban-item-piece{
+    min-height: 30px;
+    height: fit-content;
+    max-height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+}

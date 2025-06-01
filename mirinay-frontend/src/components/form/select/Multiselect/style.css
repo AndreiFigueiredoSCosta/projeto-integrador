@@ -1,0 +1,88 @@
+.input-container{
+  position: relative;
+  border-radius: 5px;
+  width: 100%;
+  min-height: 40px;
+  max-height: 40px;
+  font-size: var(--14px);
+}
+
+.custom-multiselect__control {
+  background-color: var(--branco);
+  border-radius: 5px;
+  padding: 0;
+  color: var(--verde-alt);
+  transition: border-color 0.3s ease;
+  width: 200px;
+  max-height: 40px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.custom-multiselect__control--is-focused {
+  border-color: var(--verde-alt) !important;
+  box-shadow: 0 0 0 1px var(--verde-alt) !important;
+}
+
+.input-container .custom-multiselect__value-container {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.input-container .custom-multiselect__multi-value {
+  background-color: var(--verde-alt-20-claro);
+  color: var(--vermelho);
+  border-radius: 10px;
+  margin-top: 12px;
+  padding: 0 0 1px 0;
+  font-size: 12px;
+  overflow: hidden;
+  display: inline-flex;
+  min-width: 70px;
+}
+
+.input-container .custom-multiselect__menu {
+  position: relative;
+  border: 2px solid var(--verde-alt);
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  width: 200px;
+  color: var(--verde-alt-40-escuro);
+  margin-top: 0;
+}
+
+.custom-multiselect__option {
+  border-bottom: 2px solid var(--verde-alt);
+}
+
+.input-container .custom-multiselect__option--is-focused {
+  background-color: var(--verde-alt-40-transparente) !important;
+  box-shadow: 0 0 0 1px var(--verde-alt-40-transparente);
+}
+
+.custom-multiselect__dropdown-indicator {
+  color: var(--cinza);
+}
+
+.custom-multiselect__placeholder {
+  color: var(--cinza);
+}
+
+.input-container .custom-multiselect__clear-indicator {
+  display: none;
+}
+
+.custom-multiselect__control--is-disabled {
+  background-color: var(--cinza);
+  border: 1px solid var(--cinza);
+  color: var(--cinza);
+  pointer-events: none;
+}
+
+.custom-multiselect__control--is-disabled .custom-multiselect__value-container {
+  overflow: hidden;
+}

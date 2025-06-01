@@ -1,0 +1,34 @@
+import ViewManager from "../../../../../../components/view/ViewManager";
+import {useEffect} from "react";
+import useView from "../../../../../../hooks/useView.ts";
+
+import ViewProperties, {defaultViewProperties} from "../../../../../../models/view/ViewProperties.ts";
+import ProdutoTopDetailsView from "../views/ProdutoTopDetailsView";
+
+/**
+ * Seção superior dos detalhes de grupo (Responsável por inicializar propriedades de view)
+ * @constructor
+ */
+export default function ProdutoTopSection(){
+    const context = useView();
+
+    // Adiciona a view de informações ao contexto de views
+    useEffect(() => {
+        if (!context.currentView.title){
+            const grupoDataView = {
+                ...defaultViewProperties,
+                title: "Informações"
+            } as ViewProperties;
+
+            context.addView(grupoDataView);
+            context.setCurrentView(grupoDataView);
+        }
+    }, [context]);
+
+    return (
+        <div style={{height: "fit-content"}}>
+            <ViewManager hasSubmitContainer={false} size={"small"}/>
+            <ProdutoTopDetailsView/>
+        </div>
+    );
+}

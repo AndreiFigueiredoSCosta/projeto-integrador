@@ -1,0 +1,47 @@
+.stage-header {
+    display: flex;
+    height: 40px;
+    color: var(--preto);
+    width: 100%;
+}
+
+.stage-item {
+    display: flex;
+    padding: 10px;
+    transition: width 0.5s ease, max-width 0.5s ease;
+    overflow: hidden;
+    width: 50px;
+    color: var(--preto);
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.item-name {
+    transition: opacity 0.5s ease, max-width 0.5s ease;
+}
+
+.stage-item.red {
+    background-color: var(--vermelho-20-claro);
+}
+
+.stage-item.green {
+    background-color: var(--verde-20-claro);
+}
+
+.stage-item.alt-green {
+    background-color: var(--verde-alt);
+}
+
+.stage-item.yellow {
+    background-color: var(--amarelo-40-claro);
+}
+
+.stage-item.active {
+    flex: 1;
+    width: 100%;
+    gap: 5px;
+    transition: width 0.5s ease, max-width 0.5s ease;
+    justify-content: left;
+    cursor: default;
+}

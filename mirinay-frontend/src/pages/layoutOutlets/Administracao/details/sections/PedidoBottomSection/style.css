@@ -1,0 +1,6 @@
+.grupo-bottom-section{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    flex: 1;
+}

@@ -1,0 +1,35 @@
+.confirmDelete{
+    min-width: 400px;
+    max-width: 400px;
+    height: fit-content;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--branco);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.confirmDeleteBody{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: fit-content;
+}
+
+.confirmDeleteHeader{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.closeButton{
+    padding: 5px;
+}

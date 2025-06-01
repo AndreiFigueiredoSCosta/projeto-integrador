@@ -1,0 +1,75 @@
+.switch {
+    position: relative;
+    width: fit-content;
+    min-width: 80px;
+    height: 30px;
+    box-sizing: border-box;
+    background-color: var(--cinza);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 150ms cubic-bezier(0.3, -0.05, 0.7, -0.5);
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.switch-input {
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.switch-ball {
+    position: absolute;
+    left: 5px;
+    height: 25px;
+    width: 25px;
+    transform: translateY(-50%);
+    top:50%;
+    background-color: var(--branco-20-escuro);
+    border-radius: 50%;
+}
+
+.switch-text {
+    user-select: none;
+    margin-left: 30px;
+    margin-right: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: var(--12px);
+    font-weight: 600;
+    line-height: var(--20px);
+    text-align: center;
+    color: var(--branco);
+    transition: transform 300ms cubic-bezier(0.3, -0.05, 0.7, -0.5);
+    pointer-events: none;
+    text-transform: uppercase;
+}
+
+.switch-input:checked + .switch {
+    background-color: var(--verde);
+}
+
+.switch-input:checked + .switch .switch-ball {
+    left: inherit;
+    right: 5px;
+    background-color: var(--verde-alt);
+}
+
+.switch-input:checked + .switch .switch-text {
+    margin-left: 5px;
+    margin-right: 30px;
+}
+
+.switch-input:disabled + .switch {
+    background-color: var(--branco-20-escuro);
+    cursor: not-allowed;
+}
+
+.switch-input:disabled + .switch .switch-ball {
+    background-color: var(--branco-10-escuro);
+}
+
+.switch-input:disabled + .switch .switch-text {
+    color: var(--branco-5-escuro);
+}

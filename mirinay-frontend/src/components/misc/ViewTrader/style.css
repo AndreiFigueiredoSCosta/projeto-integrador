@@ -1,0 +1,50 @@
+.trader {
+    text-align: center;
+    border: 1px solid var(--branco-20-escuro);
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.trader.false {
+    background-color: var(--branco);
+}
+
+.trader.true:hover {
+    background-color: var(--branco-10-escuro);
+    cursor: pointer;
+}
+
+.trader.true {
+    background-color: var(--branco-5-escuro);
+}
+
+.trader.small {
+    width: 100%;
+    height: 25px;
+    min-width: 125px;
+}
+
+.trader.small.trader.true {
+    height: 20px;
+}
+
+.trader.medium {
+    width:fit-content;
+    height: 40px;
+    min-width: 175px;
+}
+
+.trader.medium.trader.true {
+    height: 35px;
+}
+
+.trader.large {
+    width: fit-content;
+    height: 50px;
+    min-width: 250px;
+}
+
+.trader.large.trader.true {
+    height: 45px;
+}

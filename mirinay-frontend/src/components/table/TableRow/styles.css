@@ -1,0 +1,67 @@
+.tableRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    min-height: 40px;
+    max-height: 90px;
+    background-color: var(--branco);
+    border: 1px solid var(--branco-10-escuro);
+    padding-right: 10px;
+}
+
+.tableRow svg {
+    margin-left: 10px;
+}
+
+.dropdown-tableRow {
+    min-height: 50px;
+    max-height: 100px;
+}
+
+.stripped-tableRow {
+    background-color: var(--branco-5-escuro);
+}
+
+.tableRow:hover {
+    background-color: var(--branco-10-escuro);
+}
+
+.dropdown-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: height 1s ease, opacity 1s ease;
+}
+
+.dropdown-content.open {
+    overflow: visible ;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    min-height: fit-content;
+    max-height: fit-content;
+}
+
+.dropdown-clicked{
+    background-image: linear-gradient(var(--verde-95-transparente), var(--verde-95-transparente));
+}
+
+.selected-tableRow {
+    background-image: linear-gradient(var(--verde-95-transparente), var(--verde-95-transparente));
+}
+
+.rejected-tableRow {
+    background-image: linear-gradient(var(--vermelho-80-transparente), var(--vermelho-80-transparente));
+}
+.approved-tableRow {
+    background-image: linear-gradient(var(--verde-alt-40-transparente), var(--verde-alt-40-transparente));
+}
+
+.removed-tableRow {
+    background-image: linear-gradient(var(--preto-85-transparente), var(--preto-85-transparente));
+    color: var(--cinza);
+}
+
+.no-click-dropdown-tableRow {
+    padding-left: 40px;
+}

@@ -1,0 +1,95 @@
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.checkbox-input {
+    display: none;
+}
+
+.checkbox-checkmark {
+    width: 10px;
+    height: 10px;
+    border: 2px solid var(--branco-20-escuro);
+    display: inline-block;
+    position: relative;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.checkbox-container input:checked + .checkbox-checkmark {
+    background-color: var(--verde);
+    border-color: var(--verde);
+}
+.checkbox-container.disabled input:checked + .checkbox-checkmark {
+    background-color: var(--cinza);
+    border-color: var(--cinza);
+}
+
+.checkbox-container input:checked + .checkbox-checkmark::after {
+    content: '\2714';
+    color: white;
+    font-size: 8px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.checkbox-container:disabled .checkbox-checkmark {
+    border-color: var(--cinza);
+    background-color: var(--branco-15-escuro);
+}
+
+.checkbox-container.disabled .checkbox-checkmark::after {
+    color: var(--cinza);
+}
+
+.checkbox-container.small {
+    font-size: 10px;
+}
+
+.checkbox-container.small .checkbox-checkmark {
+    border-radius: 2px;
+    width: 12px;
+    height: 12px;
+}
+
+.checkbox-container.medium {
+    font-size: 14px;
+}
+
+.checkbox-container.medium .checkbox-checkmark {
+    border-radius: 3px;
+    width: 20px;
+    height: 20px;
+}
+
+.checkbox-container.large {
+    font-size: 16px;
+}
+
+.checkbox-container.large .checkbox-checkmark {
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.checkbox-container.checkbox-container.medium input:checked + .checkbox-checkmark::after {
+    font-size: 15px;
+}
+.checkbox-container.checkbox-container.large input:checked + .checkbox-checkmark::after {
+    font-size: 20px;
+}
+
+.checkbox-container.disabled {
+    cursor: not-allowed;
+    color: var(--cinza);
+}
+
+.checkbox-container.disabled {
+    cursor: not-allowed;
+    color: var(--cinza);
+}

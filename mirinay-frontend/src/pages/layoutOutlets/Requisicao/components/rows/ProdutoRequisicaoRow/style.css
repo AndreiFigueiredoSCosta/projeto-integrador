@@ -1,0 +1,4 @@
+.sider{
+    display: flex;
+    flex-direction: row;
+}
